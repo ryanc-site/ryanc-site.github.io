@@ -38,7 +38,7 @@ unsafe(不安全)类，是对cas机制的一种  <span style="color:#42B983;font
  * ：因为 unsafe类 是在rt包下的，并且unsafe是直接操作内存的类，所以官方为了不让程序员们直接操作内存导致不安全的问题发生，所以对unsafe类使用加了以下限制
  * 首先unsafe类必须有Bootstrap类加载器加载才能使用
  *
- * @author cWX993443
+ * @author Ryan丶璟芮 
  * @since 2021-02-02
  */
 public class NormalChannelUnsafe {
@@ -75,7 +75,7 @@ public class NormalChannelUnsafe {
  * 非正规渠道使用unsafe类
  *  正常的渠道无法使用unsafe类 但是我们可以利用强大的 反射来打破平衡，突破限制
  *
- * @author cWX993443
+ * @author Ryan丶璟芮 
  * @since 2021-02-02
  */
 public class AbnormalChannelUnsafe {
