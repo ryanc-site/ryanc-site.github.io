@@ -1,0 +1,7 @@
+{
+  "name": "ryanc-site.wiki",
+  "ver": "1.0.0",
+  "logo": "amWiki/images/head_icon.png",
+  "testing": true,
+  "page-mounts":true
+}
