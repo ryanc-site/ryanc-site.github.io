@@ -69,6 +69,9 @@
         - [HotSpot_JOL](?file=02-java篇/02-技术栈/02-jvm/06-HotSpot_JOL "HotSpot_JOL")
     - **多线程**
         - [synchronize底层原理](?file=02-java篇/02-技术栈/03-多线程/01-synchronize底层原理 "synchronize底层原理")
+    - **分布式**
+        - [分布式基础](?file=02-java篇/02-技术栈/04-分布式/01-分布式基础 "分布式基础")
+        - **zookeeper**
 - **第三方**
     - **Hutool**
     - **Mybatis-plus**
