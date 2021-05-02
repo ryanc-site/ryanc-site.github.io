@@ -72,6 +72,7 @@
     - **分布式**
         - [分布式基础](?file=02-java篇/02-技术栈/04-分布式/01-分布式基础 "分布式基础")
         - **zookeeper**
+            - [zookeeper基础](?file=02-java篇/02-技术栈/04-分布式/02-zookeeper/01-zookeeper基础 "zookeeper基础")
 - **第三方**
     - **Hutool**
     - **Mybatis-plus**
