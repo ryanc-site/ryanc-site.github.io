@@ -1,1 +1,0 @@
-if(typeof AWPageMounts=='undefined'){AWPageMounts={}};AWPageMounts['home']={"name":"home-首页.md","path":"home-首页.md","content":"# ryanc-site.wiki \n\n<br>\n\n![欢迎使用amWiki！](amWiki/images/logo.png \"欢迎来到 Ryan Wiki！\")  \n\n### 欢迎使用 amWiki 轻文库!\n [Ryanc-site:璟芮](https://ryanc-site.github.io) —— **真正的大师永远怀着一颗学徒的 . . .**  \n\n","timestamp":1618132041402}

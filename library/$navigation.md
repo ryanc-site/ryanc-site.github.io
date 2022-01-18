@@ -26,9 +26,7 @@
     - [日常问题记录](?file=01-运维篇/02-archlinux/01-日常问题记录 "日常问题记录")
 
 ##### java篇
-- **开发工具**
-    - **idea**
-    - **git**
+- **测试**
 - **技术栈**
     - **设计模式**
         - [设计模式总述](?file=02-java篇/02-技术栈/01-设计模式/01-设计模式总述 "设计模式总述")
@@ -58,8 +56,6 @@
             - [访问者模式](?file=02-java篇/02-技术栈/01-设计模式/04-行为型/09-访问者模式 "访问者模式")
             - [中介者模式](?file=02-java篇/02-技术栈/01-设计模式/04-行为型/10-中介者模式 "中介者模式")
             - [解释器模式](?file=02-java篇/02-技术栈/01-设计模式/04-行为型/11-解释器模式 "解释器模式")
-        - **ext_并发型**
-        - **ext_线程池**
     - **jvm**
         - [class类文件结构](?file=02-java篇/02-技术栈/02-jvm/01-class类文件结构 "class类文件结构")
         - [jvm内存结构](?file=02-java篇/02-技术栈/02-jvm/02-jvm内存结构 "jvm内存结构")
@@ -75,14 +71,8 @@
             - [zookeeper基础](?file=02-java篇/02-技术栈/04-分布式/02-zookeeper/01-zookeeper基础 "zookeeper基础")
             - [zookeeper进阶](?file=02-java篇/02-技术栈/04-分布式/02-zookeeper/02-zookeeper进阶 "zookeeper进阶")
 - **第三方**
-    - **Hutool**
-    - **Mybatis-plus**
     - **上帝之眼sikulix**
         - [sikulix快速上手](?file=02-java篇/03-第三方/03-上帝之眼sikulix/01-sikulix快速上手 "sikulix快速上手")
     - **selenium**
         - [selenium初探](?file=02-java篇/03-第三方/04-selenium/01-selenium初探 "selenium初探")
         - [selenium进阶](?file=02-java篇/03-第三方/04-selenium/02-selenium进阶 "selenium进阶")
-
-##### python篇
-
-##### go篇

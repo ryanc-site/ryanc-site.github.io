@@ -9,7 +9,7 @@
 .markdown-body h2 + h3{margin-top:24px;}
 .markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre{margin-bottom:12px;}
 .markdown-body .anchor{margin-left:-24px;}
-.markdown-body blockquote{padding:8px 15px;}
+.markdown-body blockquote{padding:8px 15px;background-color:#fafafa;}
 .markdown-body .anchor{padding-top:10px;margin-top:-10px;}
 .markdown-body .anchor svg{visibility:hidden;width:20px;height:20px;color:#828282;}
 .markdown-body h3 .anchor{position:relative;top:2px;}
@@ -65,11 +65,11 @@ body{position:relative;height:100%;background:#e7e8eb;}
 .menu-filter :-moz-placeholder{color:#ccc;font-size:13px;}
 .menu-filter ::-moz-placeholder{color:#ccc;font-size:13px;}
 .menu-filter ::-ms-clear{display:none !important;width:0;height:0;}
-.menu-filter i{display:block;box-sizing:content-box;position:absolute;top:0px;right:0px;width:23px;padding:2px 10px 0;font-size:25px;text-align:center;color:#ccc;cursor:pointer;}
+.menu-filter i{display:block;box-sizing:content-box;position:absolute;top:0px;right:0px;width:23px;padding:0 10px;font-size:25px;text-align:center;color:#ccc;cursor:pointer;}
 .menu-filter i:hover{color:#e6660d;}
 .menu-filter i.off{display:none;}
 /* search */
-.menu-search{display:block;position:absolute;top:0;right:1px;z-index:11;width:39px;height:38px;border-left:1px solid #D9D9D9;border-bottom:1px solid #D9D9D9;cursor:pointer;}
+.menu-search{display:block;position:absolute;top:0;right:1px;z-index:11;width:39px;height:38px;font-style:normal;border-left:1px solid #D9D9D9;border-bottom:1px solid #D9D9D9;cursor:pointer;}
 .menu-search:hover{background-color:#f4f5f9;}
 .menu-search svg{position:absolute;top:12px;left:12px;width:16px;height:16px;color:#4296eb;}
 /* menubar */
@@ -185,7 +185,7 @@ aside .back-top:hover .back-text{display:block;color:#aaa;}
 
 /* ---------- footer ---------- */
 footer{position:absolute;left:0;bottom:0;width:100%;}
-footer .signature{position:absolute;right:20px;bottom:0px;color:#999;}
+footer .signature{position:absolute;right:20px;bottom:8px;color:#999;}
 
 /* ---------- lowBrowser ---------- */
 #lowBrowser{position:fixed;top:0;left:0;z-index:9999999;width:100%;height:100%;}
@@ -215,7 +215,7 @@ footer .signature{position:absolute;right:20px;bottom:0px;color:#999;}
 	.header .menu-icon.close svg{top:14px;left:10px;width:18px;height:18px;}
 
 	.container{position:relative;margin:50px auto 0;background:#fff;border:none;}
-
+	
 	/* ---------- menu ---------- */
 	.container .nav{display:none;position:fixed;left:0;top:50px;z-index:9999;width:100%;height:100%;padding-bottom:30px;background:rgba(0,0,0,0.92);overflow-y:scroll;}
 	.container .nav.on{display:block;}
@@ -225,7 +225,7 @@ footer .signature{position:absolute;right:20px;bottom:0px;color:#999;}
 	.menu-search{height:37px;}
 	.menu-search:hover{background-color:transparent;}
 	.menu-search:active{background-color:#f4f5f9;}
-
+	
 	.menubar{width:100%;height:auto;padding-bottom:50px;border-right:none;}
 	.menubar i{border-top:1px solid #999;}
 	.menubar i:hover{background-color:transparent;}
@@ -254,11 +254,11 @@ footer .signature{position:absolute;right:20px;bottom:0px;color:#999;}
     .main-sibling{padding:30px 25px 25px;}
     .main-sibling p{height:22px;}
     .main-sibling a{padding-right:20px;}
-
+    
     /* ---------- contents ---------- */
     aside .contents{bottom:75px;border-radius:50%;}
     aside .contents-list{right:40px;width:255px;max-height:310px;}
-
+    
     /* ---------- backTop ---------- */
     aside .back-top{border-radius:50%;bottom:32px;}
     aside .back-top:hover .back-text{display:none;}
@@ -376,7 +376,7 @@ footer .signature{position:absolute;right:20px;bottom:0px;color:#999;}
     @page{margin:2cm;size:A4 portrait;}
 }
 @media print {
-
+    
     /* ---------- main ---------- */
     body{color:black;background:#fff;}
     .header{display:none;}
@@ -399,13 +399,13 @@ footer .signature{position:absolute;right:20px;bottom:0px;color:#999;}
     .main .main-sibling{display:none;}
     .back-top{display:none;}
     .signature{display:none;}
-
+    
     /* ---------- increment ---------- */
     .main{counter-reset:chapternum1;}
     h2{counter-reset:chapternum2;}
     h2:before{counter-increment:chapternum1;content:counter(chapternum1) " ";}
     h3:before{counter-increment:chapternum2;content:counter(chapternum1) "." counter(chapternum2) " ";}
-
+    
 }
 
 @charset "utf-8";
